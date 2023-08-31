@@ -8,14 +8,24 @@
 
 // ctrl + k + C to comment multiple lines at once.
 // ctrl + k + u to uncomment multiple lines at once.
+// ctrl + s is to save the file
 
 /*
  * This is how we declare variables
  */
-using System.Runtime.InteropServices;
 /**
 * This is a Multiline Comments.
 */
+
+/*
+ * Variable Decalartion Rules
+ * 1. A Variable name should start with an _ or a string (_name, name, _age, age)
+ * 2. No starting with a number
+ * 3. No space between words
+ * 4. No special characters apart from _ (Underscore)
+ * 5. A variable cannot be named after a reserved keyword
+ */
+
 int number = 120;
 double num = 120;
 bool isnum = false;
@@ -58,5 +68,7 @@ Console.WriteLine("Datatype of n1 " + n1.GetType());
 Console.WriteLine("Datatype of n2 " + n2.GetType());
 
 // Add two Numbers
-Console.WriteLine("Sum of Two Numbers: " + (n1+n2));    
+Console.WriteLine("Sum of Two Numbers: " + (n1+n2));
+
+
 
